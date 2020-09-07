@@ -12,6 +12,9 @@ body {
   h2 {
     font-size: 30pt;
   }
+  ul {
+    list-style-position: inside;
+  }
   * {
     box-sizing: border-box;
   }
