@@ -13,12 +13,10 @@ body {
   .left {
     float: left;
     width: 50%;
-    margin: 10px;
   }
   .right {
     float: right;
     width: 50%;
-    margin: 10px;
   }
   footer {
     text-align: center;
