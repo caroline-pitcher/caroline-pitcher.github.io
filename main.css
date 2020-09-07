@@ -16,12 +16,6 @@ body {
     height: 100px;
     margin: 10px;
   }
-  .right {
-    float: right;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-  }
   footer {
     text-align: center;
     clear: both;
