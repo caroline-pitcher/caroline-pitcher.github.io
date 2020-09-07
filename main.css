@@ -9,6 +9,9 @@ body {
     margin-right: 5px;
     border-bottom: 5pt solid midnightblue;
   }
+  div {
+    margin: auto;
+  }
   h2 {
     font-size: 30pt;
   }
