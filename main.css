@@ -15,6 +15,9 @@ body {
   ul {
     list-style-position: inside;
   }
+  a {
+    color: inherit;
+  }
   .blogs {
     margin: 0px 150px;
   }
