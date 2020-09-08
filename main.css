@@ -15,6 +15,9 @@ body {
   ul {
     list-style-position: inside;
   }
+  .sprints {
+    margin: 0px 20px;
+  }
   .sprint2 {
     text-align: center;
     display: block;
