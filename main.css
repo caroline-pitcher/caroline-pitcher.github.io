@@ -10,10 +10,13 @@ body {
     border-bottom: 5pt solid midnightblue;
   }
   h2 {
-    font-size: 30pt;
+    font-size: 25pt;
   }
   ul {
     list-style-position: inside;
+  }
+  .sprint2 {
+    text-align: center;
   }
   * {
     box-sizing: border-box;
