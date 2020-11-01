@@ -31,15 +31,15 @@ a {
   box-sizing: border-box;
 }
 
-.box {
+.column {
   float: left;
   width: 50%;
-  padding: 100px;
+  padding: 10px;
   margin: auto;
   text-align: center;
 }
 
-.clearfix::after {
+.row::after {
   content: "";
   clear: both;
   display: table;
