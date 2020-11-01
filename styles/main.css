@@ -31,10 +31,10 @@ a {
   box-sizing: border-box;
 }
 
-.column {
+.column1 {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 100px;
   margin: auto;
   text-align: center;
 }
@@ -50,9 +50,9 @@ footer {
   clear: both;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -85,4 +85,5 @@ footer {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
 }
