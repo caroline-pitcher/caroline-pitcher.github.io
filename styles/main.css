@@ -64,10 +64,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .containerfirst {
-    width: 100%;
-  }
-  .containersecond {
+  .container {
     width: 100%;
   }
 }
