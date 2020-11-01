@@ -39,6 +39,14 @@ a {
   text-align: center;
 }
 
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 100px;
+  margin: auto;
+  text-align: center;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -51,8 +59,12 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .column {
+  .column1 {
     width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -85,5 +97,4 @@ footer {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-}
 }
