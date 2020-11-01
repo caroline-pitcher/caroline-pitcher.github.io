@@ -8,51 +8,53 @@
 </head>
 <body>
     <h1>Problem solving and Pseudocode</h1>
-    <div class="blogs">
-        <h2>A time I was blocked on a simple problem</h2>
-            <p>
-                When I was doing the Super FizzBuzz kata, one thing that blocked me for ages was I was trying to use division to solve it instead of remaindering. We had to get the code to give us a particular message if we put in a mulitple of 3 (“Fizz), or a mulitple of 5 (“Buzz”), or if we put in a multiple of 15 (“FizzBuzz”). So I spent a lot of time trying to solve this using division which seemed logical for me. One issue is that I had to include extra code for the number 1 as that can be divided by 3, 5 or 15 but in the code it wasn’t supposed to, it was supposed to come back as 1. I used lots of googling, trying things and reading error messages. In the end as you may have already worked out, this approach using division wasn’t a good idea. I could get the “Fizz” and “Buzz” messages to work but not the “FizzBuzz” because 15 can be divided by both 3 and 5 so I got “Fizz” or “Buzz” but not “FizzBuzz”. In the end I looked at the sample solution and realised that the remaindering method was a lot easier and was going to result in shorter code as well. I did still learn a lot from trying the other option but it was important to remind myself that there isn’t just one way to do things and if something doesn’t work it’s often better to move on rather than becoming fixated on one option.
-            </p>
-        <h2>A time I solved a problem in an elegant way</h2>
-            <p>
-                I’m going to use a particular example that I still think is a good idea even though it ultimately didn’t past the test and I had to give it up. This was a function we had to write called deBee where we had a sentence that said something like “buzz help buzz I’m being buzz attacked by bees buzz” and we needed to remove all the buzzes and return the sentence without them, eg. “help I’m being attacked by bees”. The kata gave the instruction to use the techniques of split and filter, so split the sentence up into individual words, filter out the buzzes and then join the rest of the words back up into a new sentence. However while I was googling and reading online I saw that you could use the replace technique and make it replace a word with nothing which seemed like it would do the same thing but with less steps. I continued to try this idea out in lots of ways and used google and console logging to get the result which seemed to work fine. Unfortunately I couldn’t get it to pass the test but I still think it could have worked. I did learn a lot more techniques to do with strings in this challenge and I think when I have a better understanding of JavaScript it will be possible to try ideas like this one out with more knowledge. 
-            </p>
-        <h2>Pseudocode</h2>
-            <p>
-                I feel like I still need some practice with pseudocode as it is a new technique for me. I had initially written some pseudocode as sort of a paragraph and then saw someone else in my cohort doing it as bullet points and I think that is a much better style so will be writing it that way in the future,
-            </p>
-        <h2>Trying something</h2>
-            <p>
-                This is pretty much my go to problem solving method, I will try as many different things I can think of and every time I get a new idea as I go through a problem I will try it straight away.
-            </p>
-        <h2>Rubber ducky method</h2>
-            <p>
-                I’ve actually used this method a lot in the past without knowing it by this name. One thing that does make it slightly difficult at the moment is my understanding of JavaScript is still only about half there. This makes it a bit difficult to explain what I’m trying to do when I don’t understand it myself a lot of the time (even when it's to a non-animate object).
-            </p>
-        <h2>Reaing error messages</h2>
-            <p>
-                I have found this helpful to get the right term to google with, if it gives me a good error message. It’s also really helpful that it tells you when you have used the wrong bracket or whatever in Repl.it.
-            </p>
-        <h2>Console Logging</h2>
-            <p>
-                I have been doing this more and more as it is really helpful when you can see that you have the right result. The only downside I have found with the katas is sometimes console logging will tell me that my answer works but the particular test I’m doing won’t accept that answer.
-            </p>
-        <h2>Googling</h2>
-            <p>
-                I feel very confident with googling and use googling and trying something the most often out of all the techniques. As my understanding of JavaScript is only partial sometimes I have trouble finding the right term to use to google but I am improving all the time.
-            </p>
-        <h2>Asking your peers for help</h2>
-            <p>
-                I have been a bit more reluctant to do this at the moment partially because we have all been somewhat removed from each other online. I generally feel pretty comfortable asking for help when I can talk to people in person.
-            </p>
-        <h2>Asking coaches for help</h2>
-            <p>
-                Asking anyone for help can always be a little tough for me, I am proud that I have mostly asked for help from my facilitator when I’ve needed it.
-            </p>
-        <h2>Improving your process with reflection</h2>
-            <p>
-                I think writing the technical blogs and reading other people’s blogs has improved my understanding of a lot of things. I have also been doing a short journal while I’ve been in Foundations and that has helped me grasp concepts a bit more.
-            </p>
+    <div class="row">
+        <div class="blogs">
+            <h2>A time I was blocked on a simple problem</h2>
+                <p>
+                    When I was doing the Super FizzBuzz kata, one thing that blocked me for ages was I was trying to use division to solve it instead of remaindering. We had to get the code to give us a particular message if we put in a mulitple of 3 (“Fizz), or a mulitple of 5 (“Buzz”), or if we put in a multiple of 15 (“FizzBuzz”). So I spent a lot of time trying to solve this using division which seemed logical for me. One issue is that I had to include extra code for the number 1 as that can be divided by 3, 5 or 15 but in the code it wasn’t supposed to, it was supposed to come back as 1. I used lots of googling, trying things and reading error messages. In the end as you may have already worked out, this approach using division wasn’t a good idea. I could get the “Fizz” and “Buzz” messages to work but not the “FizzBuzz” because 15 can be divided by both 3 and 5 so I got “Fizz” or “Buzz” but not “FizzBuzz”. In the end I looked at the sample solution and realised that the remaindering method was a lot easier and was going to result in shorter code as well. I did still learn a lot from trying the other option but it was important to remind myself that there isn’t just one way to do things and if something doesn’t work it’s often better to move on rather than becoming fixated on one option.
+                </p>
+            <h2>A time I solved a problem in an elegant way</h2>
+                <p>
+                    I’m going to use a particular example that I still think is a good idea even though it ultimately didn’t past the test and I had to give it up. This was a function we had to write called deBee where we had a sentence that said something like “buzz help buzz I’m being buzz attacked by bees buzz” and we needed to remove all the buzzes and return the sentence without them, eg. “help I’m being attacked by bees”. The kata gave the instruction to use the techniques of split and filter, so split the sentence up into individual words, filter out the buzzes and then join the rest of the words back up into a new sentence. However while I was googling and reading online I saw that you could use the replace technique and make it replace a word with nothing which seemed like it would do the same thing but with less steps. I continued to try this idea out in lots of ways and used google and console logging to get the result which seemed to work fine. Unfortunately I couldn’t get it to pass the test but I still think it could have worked. I did learn a lot more techniques to do with strings in this challenge and I think when I have a better understanding of JavaScript it will be possible to try ideas like this one out with more knowledge. 
+                </p>
+            <h2>Pseudocode</h2>
+                <p>
+                    I feel like I still need some practice with pseudocode as it is a new technique for me. I had initially written some pseudocode as sort of a paragraph and then saw someone else in my cohort doing it as bullet points and I think that is a much better style so will be writing it that way in the future,
+                </p>
+            <h2>Trying something</h2>
+                <p>
+                    This is pretty much my go to problem solving method, I will try as many different things I can think of and every time I get a new idea as I go through a problem I will try it straight away.
+                </p>
+            <h2>Rubber ducky method</h2>
+                <p>
+                    I’ve actually used this method a lot in the past without knowing it by this name. One thing that does make it slightly difficult at the moment is my understanding of JavaScript is still only about half there. This makes it a bit difficult to explain what I’m trying to do when I don’t understand it myself a lot of the time (even when it's to a non-animate object).
+                </p>
+            <h2>Reaing error messages</h2>
+                <p>
+                    I have found this helpful to get the right term to google with, if it gives me a good error message. It’s also really helpful that it tells you when you have used the wrong bracket or whatever in Repl.it.
+                </p>
+            <h2>Console Logging</h2>
+                <p>
+                    I have been doing this more and more as it is really helpful when you can see that you have the right result. The only downside I have found with the katas is sometimes console logging will tell me that my answer works but the particular test I’m doing won’t accept that answer.
+                </p>
+            <h2>Googling</h2>
+                <p>
+                    I feel very confident with googling and use googling and trying something the most often out of all the techniques. As my understanding of JavaScript is only partial sometimes I have trouble finding the right term to use to google but I am improving all the time.
+                </p>
+            <h2>Asking your peers for help</h2>
+                <p>
+                    I have been a bit more reluctant to do this at the moment partially because we have all been somewhat removed from each other online. I generally feel pretty comfortable asking for help when I can talk to people in person.
+                </p>
+            <h2>Asking coaches for help</h2>
+                <p>
+                    Asking anyone for help can always be a little tough for me, I am proud that I have mostly asked for help from my facilitator when I’ve needed it.
+                </p>
+            <h2>Improving your process with reflection</h2>
+                <p>
+                    I think writing the technical blogs and reading other people’s blogs has improved my understanding of a lot of things. I have also been doing a short journal while I’ve been in Foundations and that has helped me grasp concepts a bit more.
+                </p>
+        </div>
     </div>
     <footer>
         <a href="https://caroline-pitcher.github.io">Home</a>
