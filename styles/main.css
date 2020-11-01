@@ -23,7 +23,12 @@ a {
     color: inherit;
 }
 
+img {
+  max-width: 100%;
+}
+
 .blogs {
+  display: flex;
   margin: 0px 150px;
 }
 
