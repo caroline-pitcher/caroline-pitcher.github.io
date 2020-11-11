@@ -39,6 +39,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   padding: 0px 30px;
+  width: 100%
 }
 
 .row::after {
@@ -53,19 +54,13 @@ footer {
 }
 
 @media screen and (min-width: 320px) {
-  .container {
-    width: 100%;
-  }
+
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 100%;
-  }
+
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 100%;
-  }
+
 }
